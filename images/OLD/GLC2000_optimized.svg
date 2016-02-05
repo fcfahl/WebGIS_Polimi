@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg8473" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="84.921mm" width="94.996mm" version="1.2" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 1122 1003">
+ <metadata id="metadata8737">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <desc id="desc8475">Generated with Qt</desc>
+ <g fill-rule="evenodd">
+  <path id="path8497" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 23.6h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#006300"/>
+  <text id="text8501" font-size="41.3px" font-family="Arial" xml:space="preserve" y="56.049999" x="70.800003" font-weight="400" fill="#000000">Tree Cover; broadleaved; evergreen</text>
+  <path id="path8507" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 64.9h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#009600"/>
+  <text id="text8511" font-size="41.3px" font-family="Arial" xml:space="preserve" y="97.349998" x="70.800003" font-weight="400" fill="#000000">Tree Cover; broadleaved; deciduous; closed</text>
+  <path id="path8517" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 106.2h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#afff63"/>
+  <text id="text8521" font-size="41.3px" font-family="Arial" xml:space="preserve" y="138.64999" x="70.800003" font-weight="400" fill="#000000">Tree Cover; broadleaved; deciduous; open</text>
+  <path id="path8527" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 147.5h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#8c4411"/>
+  <text id="text8531" font-size="41.3px" font-family="Arial" xml:space="preserve" y="179.95" x="70.800003" font-weight="400" fill="#000000">Tree Cover; needle-leaved; evergreen</text>
+  <path id="path8537" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 188.8h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#cc7f60"/>
+  <text id="text8541" font-size="41.3px" font-family="Arial" xml:space="preserve" y="221.25" x="70.800003" font-weight="400" fill="#000000">Tree Cover; needle-leaved; deciduous</text>
+  <path id="path8547" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 230.1h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#8cbf00"/>
+  <text id="text8551" font-size="41.3px" font-family="Arial" xml:space="preserve" y="262.54999" x="70.800003" font-weight="400" fill="#000000">Tree Cover; mixed leaf type</text>
+  <path id="path8557" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 271.4h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#7796ff"/>
+  <text id="text8561" font-size="41.3px" font-family="Arial" xml:space="preserve" y="303.85001" x="70.800003" font-weight="400" fill="#000000">Tree Cover; regularly flooded; fresh water</text>
+  <path id="path8567" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 312.7h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#0047c6"/>
+  <text id="text8571" font-size="41.3px" font-family="Arial" xml:space="preserve" y="345.14999" x="70.800003" font-weight="400" fill="#000000">Tree Cover; regularly flooded; saline water</text>
+  <path id="path8577" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 354h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#00e500"/>
+  <text id="text8581" font-size="41.3px" font-family="Arial" xml:space="preserve" y="386.45001" x="70.800003" font-weight="400" fill="#000000">Mosaic: Tree Cover / Other natural vegetation</text>
+  <path id="path8587" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 395.3h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433"/>
+  <text id="text8591" font-size="41.3px" font-family="Arial" xml:space="preserve" y="427.75" x="70.800003" font-weight="400" fill="#000000">Tree Cover; burnt</text>
+  <path id="path8597" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 436.6h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#f70"/>
+  <text id="text8601" font-size="41.3px" font-family="Arial" xml:space="preserve" y="469.04999" x="70.800003" font-weight="400" fill="#000000">Shrub Cover; closed-open; evergreen</text>
+  <path id="path8607" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 477.9h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#ffb200"/>
+  <text id="text8611" font-size="41.3px" font-family="Arial" xml:space="preserve" y="510.35001" x="70.800003" font-weight="400" fill="#000000">Shrub Cover; closed-open; deciduous</text>
+  <path id="path8617" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 519.2h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#ffea9e"/>
+  <text id="text8621" font-size="41.3px" font-family="Arial" xml:space="preserve" y="551.65002" x="70.800003" font-weight="400" fill="#000000">Herbaceous Cover; closed-open</text>
+  <path id="path8627" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 560.5h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#ddc9a0"/>
+  <text id="text8631" font-size="41.3px" font-family="Arial" xml:space="preserve" y="592.95001" x="70.800003" font-weight="400" fill="#000000">Sparse herbaceous or sparse shrub cover</text>
+  <path id="path8637" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 601.8h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#009696"/>
+  <text id="text8641" font-size="41.3px" font-family="Arial" xml:space="preserve" y="634.25" x="70.800003" font-weight="400" fill="#000000">Regularly flooded shrub and/or herbaceous cover</text>
+  <path id="path8647" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 643.1h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#ffe0e5"/>
+  <text id="text8651" font-size="41.3px" font-family="Arial" xml:space="preserve" y="675.54999" x="70.800003" font-weight="400" fill="#000000">Cultivated and managed areas</text>
+  <path id="path8657" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 684.4h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#ff75e8"/>
+  <text id="text8661" font-size="41.3px" font-family="Arial" xml:space="preserve" y="716.84998" x="70.800003" font-weight="400" fill="#000000">Mosaic: Cropland / Tree Cover / Other natural vegetation</text>
+  <path id="path8667" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 725.7h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#c989ff"/>
+  <text id="text8671" font-size="41.3px" font-family="Arial" xml:space="preserve" y="758.15002" x="70.800003" font-weight="400" fill="#000000">Mosaic: Cropland / Shrub and/or grass cover</text>
+  <path id="path8677" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 767h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#b5b5b5"/>
+  <text id="text8681" font-size="41.3px" font-family="Arial" xml:space="preserve" y="799.45001" x="70.800003" font-weight="400" fill="#000000">Bare Areas</text>
+  <path id="path8687" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 808.3h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#89e2ff"/>
+  <text id="text8691" font-size="41.3px" font-family="Arial" xml:space="preserve" y="840.75" x="70.800003" font-weight="400" fill="#000000">Water Bodies</text>
+  <path id="path8697" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 849.6h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#efefef"/>
+  <text id="text8701" font-size="41.3px" font-family="Arial" xml:space="preserve" y="882.04999" x="70.800003" font-weight="400" fill="#000000">Snow and Ice</text>
+  <path id="path8707" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 890.9h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#f00"/>
+  <text id="text8711" font-size="41.3px" font-family="Arial" xml:space="preserve" y="923.34998" x="70.800003" font-weight="400" fill="#000000">Artificial surfaces and associated areas</text>
+  <path id="path8717" stroke-linejoin="bevel" vector-effect="non-scaling-stroke" d="m23.6 932.2h35.4v35.4h-35.4v-35.4" stroke-opacity=".60784" stroke="#000" stroke-linecap="square" stroke-width=".35433" fill="#ffb7c1"/>
+  <text id="text8721" font-size="41.3px" font-family="Arial" xml:space="preserve" y="964.65002" x="70.800003" font-weight="400" fill="#000000">Irrigated Agriculture</text>
+ </g>
+</svg>

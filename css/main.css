@@ -1,0 +1,168 @@
+/* variables in stylesheets supported only in Firefox */
+:root {
+  --top_block_height: 40px;  
+  --left_panel_width: 300px;
+}
+
+*{margin:0; padding:0; box-sizing: border-box;float: none}
+
+body {
+    overflow:hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#top-header,#map,#panel-text, .draggable , .LULC{
+	background-color: rgba(230, 230, 230, 1);	
+	border:2px solid white;
+	border-radius: 2px;	
+	font-family: Arial, Helvetica, sans-serif;
+	color:rgba(0, 0, 0, 1);
+}
+
+#top-header{
+	z-index: 2;
+	position: fixed;	
+	height: 40px;	
+	width: 100%;
+}
+
+#map{
+	z-index: 1;
+	position: fixed;
+	height: calc(100% - 40px);
+	width: 100% ;
+	margin-top: 40px;	
+}
+
+#panel-text{
+	z-index: 4;
+	position: fixed;	
+	width: 300px;
+	top: 0;
+	right: 0;
+	height: 100%;
+}
+
+#info{
+	padding: 0px 0px;
+}
+
+
+h1,h2,h3,h4,h5,p{	
+	display: inline;	
+	font-size: 25px;
+	line-height: 40px;	
+    text-align: left;	
+	color:rgba(80, 80, 80, 1);
+	text-shadow: 1px 1px rgba(180, 180, 180, 1);
+}
+
+h1{	
+	display: block;
+	text-align: center;	
+}
+
+h2{	
+	font-size: 16px;	
+	line-height: 20px;	
+	text-shadow: none;	
+	padding: 10px 5px 5px 5px;
+}
+
+h3{	
+	font-size: 14px;
+	line-height: 10px;	
+	padding: 20px 5px 5px 5px;	
+}
+
+h4{
+	font-size: 14px;
+	line-height: 10px;	
+	color:rgba(80, 80, 80, 1);
+	text-shadow: 1px 1px rgba(180, 180, 180, 1);	
+	padding: 30px 0px 5px 0px;	
+}
+
+h5{	
+	font-size: 12px;
+	line-height: 5px;	
+	text-shadow: none;
+	font-weight: bold;	
+}
+h6{	
+	font-size: 12px;
+	line-height: 15px;	
+	text-shadow: none;
+	font-weight: bold;	
+
+	background-color: none;
+}
+
+p{	
+	font-size: 12px;
+	line-height: 5px;	
+	padding: 5px 0px 5px 10px;
+	text-shadow: none;	
+	font-weight: bold;	
+	background-color: none;
+}
+
+
+fieldset {
+	display:none;
+  	border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+	height: auto;
+}
+
+li {
+   list-style-type: none; 
+}
+
+
+.leg {
+	display:none;
+	border: 0px;
+	margin: 0px 0px 0px -20px;	
+	padding: 0px;
+}
+
+.unsorted {
+	display: inline;
+    overflow:scroll;
+    overflow-x:hidden;
+	height: auto;
+	width: 450px;
+	top: 20;
+	right: 0;
+	height: calc(100% - 40px);
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;	
+}
+
+::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment  {
+	-webkit-border-radius: 1px;
+	background-color: rgba(230, 230, 230, 1);
+}
+
+::-webkit-scrollbar-track-piece  {
+	background-color: rgba(150, 150, 150, 0.8);
+	-webkit-border-radius: 6px;
+    left: 20px;
+    right: 20px;
+
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	-webkit-border-radius: 6px;
+	background: #666 no-repeat center;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	width: 1px;
+}

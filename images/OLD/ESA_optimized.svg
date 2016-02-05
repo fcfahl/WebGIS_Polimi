@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="134.959mm"
+   height="134.959mm"
+   viewBox="0 0 1594 1594"
+   version="1.2"
+   id="svg6416"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="ESA_optimized.svg">
+  <metadata
+     id="metadata6820">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     id="namedview6818"
+     showgrid="false"
+     inkscape:zoom="1.3958744"
+     inkscape:cx="62.793783"
+     inkscape:cy="242.98743"
+     inkscape:window-x="1334"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6416" />
+  <desc
+     id="desc6418">Generated with Qt</desc>
+  <defs
+     id="defs6420" />
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,23.6148 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6440"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="56.085152"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6444"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">No data</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,64.9407 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6450"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#ffff64;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="97.411049"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6454"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Cropland; rainfed</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,106.2666 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6460"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#ffff64;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="138.73695"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6464"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Herbaceous cover</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,147.5925 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6470"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="180.06285"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6474"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Tree or shrub cover</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,188.9184 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6480"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#aaf0f0;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="221.38875"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6484"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Cropland; irrigated or post-flooding</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,230.2443 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6490"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#dcf064;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="262.71466"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6494"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Mosaic cropland (&gt;50%) / natural vegetation (tree; shrub; herbaceous cover) (&lt;50%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,271.5702 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6500"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#c8c864;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="304.04056"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6504"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Mosaic natural vegetation (tree; shrub; herbaceous cover) (&gt;50%) / cropland (&lt;50%) </text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,312.8961 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6510"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#006400;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="345.36646"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6514"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Tree cover; broadleaved; evergreen; closed to open (&gt;15%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,354.222 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6520"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#00a000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="386.69235"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6524"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Tree cover; broadleaved; deciduous; closed to open (&gt;15%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,395.5479 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6530"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#00a000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="428.01825"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6534"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Tree cover; broadleaved; deciduous; closed (&gt;40%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,436.8738 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6540"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#aac800;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="469.34415"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6544"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Tree cover; broadleaved; deciduous; open (15-40%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,478.1997 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6550"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#003c00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="510.67004"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6554"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Tree cover; needleleaved; evergreen; closed to open (&gt;15%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,519.5256 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6560"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#003c00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="551.99597"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6564"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Tree cover; needleleaved; evergreen; closed (&gt;40%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,560.8515 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6570"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#005000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="593.32184"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6574"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Tree cover; needleleaved; evergreen; open (15-40%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,602.1774 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6580"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#285000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="634.64777"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6584"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Tree cover; needleleaved; deciduous; closed to open (&gt;15%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,643.5033 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6590"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#285000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="675.97363"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6594"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Tree cover; needleleaved; deciduous; closed (&gt;40%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,684.8292 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6600"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#286400;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="717.29956"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6604"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Tree cover; needleleaved; deciduous; open (15-40%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,726.1551 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6610"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#788200;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="758.62543"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6614"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Tree cover; mixed leaf type (broadleaved and needleleaved)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,767.481 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6620"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#8ca000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="799.95135"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6624"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Mosaic tree and shrub (&gt;50%) / herbaceous cover (&lt;50%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,808.8069 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6630"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#be9600;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="841.27722"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6634"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Mosaic herbaceous cover (&gt;50%) / tree and shrub (&lt;50%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,850.1328 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6640"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#966400;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="882.60315"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6644"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Shrubland</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,891.4587 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6650"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#784b00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="923.92908"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6654"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Shrubland evergreen</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,932.7846 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6660"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#966400;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="965.25494"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6664"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Shrubland deciduous</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,974.1105 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6670"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#ffb432;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="1006.5809"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6674"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Grassland</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,1015.4364 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6680"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#ffdcd2;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="1047.9067"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6684"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Lichens and mosses</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,1056.7623 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6690"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#ffebaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="1089.2327"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6694"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Sparse vegetation (tree; shrub; herbaceous cover) (&lt;15%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,1098.0882 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6700"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#ffd278;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="1130.5586"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6704"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Sparse shrub (&lt;15%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,1139.4141 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6710"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#ffebaf;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="1171.8844"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6714"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Sparse herbaceous cover (&lt;15%)</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,1180.74 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6720"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#00785a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="1213.2103"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6724"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Tree cover; flooded; fresh or brakish water</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,1222.0659 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6730"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#009678;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="1254.5363"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6734"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Tree cover; flooded; saline water</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,1263.3918 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6740"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#00dc82;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="1295.8622"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6744"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Shrub or herbaceous cover; flooded; fresh/saline/brakish water</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,1304.7177 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6750"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#c31400;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="1337.1881"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6754"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Urban areas</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,1346.0436 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6760"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#fff5d7;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="1378.5139"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6764"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Bare areas</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,1387.3695 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6770"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="1419.8398"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6774"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Consolidated bare areas</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,1428.6954 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6780"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#fff5d7;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="1461.1658"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6784"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Unconsolidated bare areas</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,1470.0213 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6790"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#0046c8;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="1502.4917"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6794"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Water bodies</text>
+  <path
+     vector-effect="non-scaling-stroke"
+     d="m 23.6148,1511.3472 35.4222,0 0,35.4222 -35.4222,0 0,-35.4222"
+     id="path6800"
+     inkscape:connector-curvature="0"
+     style="font-style:normal;font-weight:400;font-size:medium;font-family:'MS Shell Dlg 2';fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.35432983;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:0.60784316;stroke-miterlimit:4;stroke-dasharray:none" />
+  <text
+     xml:space="preserve"
+     x="70.844398"
+     y="1543.8175"
+     font-size="35"
+     font-weight="400"
+     font-style="normal"
+     id="text6804"
+     style="font-style:normal;font-weight:400;font-size:41.32590103px;font-family:Arial;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">Permanent snow and ice</text>
+</svg>
