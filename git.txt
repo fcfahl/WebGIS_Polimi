@@ -13,7 +13,7 @@ cd WebGIS_Polimi
 
 4) Push repo
 git add -A
-git commit -m '1st commit'
+git commit -m 'libs'
 git push origin master
 
 5) Update local repo
