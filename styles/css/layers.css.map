@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIgB,4BAAE,CACE,SAAS,CAAE,IAAK,CACpB,+BAAK,CACD,SAAS,CAAE,IAAK,CAEpC,UAAU,CACN,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC,CAIb,MAAM,CACF,OAAO,CAAE,CAAC,CAEV,UAAK,CACD,OAAO,CAAE,CAAC",
+"sources": ["../scss/layers.sass"],
+"names": [],
+"file": "layers.css"
+}

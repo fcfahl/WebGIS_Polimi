@@ -1,0 +1,59 @@
+//- - var NUTS0 = 'Country Boundaries'
+//- - var GLC_00 = 'Global Land Cover (2000)'
+//- - var Corine_06 = 'Corine (2006)'
+//- - var Atlas_06 = 'Urban Atlas (2006)'
+//- - var GlobCover_09 = 'GlobCover (2009)'
+//- - var MODIS_10 = 'MODIS (2010)'
+//- - var CCIESA_10 = 'Land Cover CCI (2010)'
+//- - var GLand30_10 = 'Global Land Cover 30m (2010)'
+//- - var custom_WMS = 'Custom Layer'
+//- 
+//- - var ADM = ['NUTS0']
+//- - var LULC = ['GLC_00', 'Corine_06', 'Atlas_06', 'GlobCover_09', 'MODIS_10', 'CCIESA_10', 'GLand30_10']
+//- - var custom = ['custom_WMS']
+
+- var ADM = {NUTS0: 'Country Boundaries'}
+- var LULC = {GLC_00: 'Global Land Cover (2000)', Corine_06: 'Corine (2006)', Atlas_06: 'Urban Atlas (2006)', GlobCover_09: 'GlobCover (2009)',MODIS_10: 'MODIS (2010)', CCIESA_10: 'Land Cover CCI (2010)', GLand30_10: 'Global Land Cover 30m (2010)'}
+- var custom = {custom_WMS: 'WMS'}
+
+mixin addPlugin(name)
+    //- leaflet plugins
+    script(src='libs/plugins/' + name ) 
+    
+mixin addCSS(name)
+    //- leaflet plugins
+    link(rel="stylesheet" href='libs/plugins/' + name)
+
+mixin list(classLI,classA,href,name)
+    li(class=classLI)
+        a(class=classA href=href)=name
+        
+mixin link(classA,href,name)
+    a(class=classA href=href)=name
+
+mixin dropdown()
+    a(class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false") Dropdown
+
+mixin tabs(classLI,classA,name,tab,bool)
+    - var idA = name + "-tab"
+    - var ref = "#" + name
+
+    li(class=classLI)
+        a(class=classA href=ref role=roleA id=idA data-toggle="tab" aria-controls=name aria-expanded=bool)=tab
+
+mixin test()
+    ul
+        each val, index in {1:'one',2:'two',3:'three'}
+            li= index + ': ' + val
+        
+mixin accordeon(section,layers)
+    .group
+        h3=section
+        div
+            for name, id in layers
+                - var ID = id
+                - var NM = name
+                div(id=ID class='draggable')
+                    li
+                        input(type="checkbox" value=ID checked='false')
+                        label(for=ID)= NM
