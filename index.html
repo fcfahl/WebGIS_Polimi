@@ -10,6 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"> </script>
+    <script src="libs/bootstrap4/tether.min.js">       </script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"> </script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"> </script>
     <link rel="stylesheet" type="text/css" href="libs/jquery-ui-1.11.4/jquery-ui.min.css">
     <link rel="stylesheet" type="text/css" href="libs/jquery-ui-1.11.4/jquery-ui.theme.min.css">
@@ -58,18 +61,177 @@
       <div class="content">
         <div class="side">
           <div class="pannel"><!-- Tabsl -->
-            <div id="tabs">
-              <ul>
-                <li><a href="#layers"><span>Layers</span></a></li>
-                <li><a href="#legend"><span>Legend</span></a></li>
-                <li><a href="#info"><span>Metadata</span></a></li>
-              </ul><!-- Content Panel -->
-              <div>layers
-                <include name="name"></include></div>
-              <div>legend
-                <include name="name"></include></div>
-              <div>info
-                <include name="name"></include></div>
+            <ul id="clothing-nav" role="tablist" class="nav nav-tabs">
+              <li class="nav-item"><a href="#layers" id="layers-tab" data-toggle="tab" aria-controls="layers" aria-expanded="true" class="nav-link active">Layers</a></li>
+              <li class="nav-item"><a href="#legend" id="legend-tab" data-toggle="tab" aria-controls="legend" aria-expanded="false" class="nav-link">Legend</a></li>
+              <li class="nav-item"><a href="#info" id="info-tab" data-toggle="tab" aria-controls="info" aria-expanded="false" class="nav-link">Metadata</a></li>
+            </ul><!-- Content Panel -->
+            <div id="clothing-nav-content" class="tab-content">
+              <div role="tabpanel" id="layers" aria-labelledby="layers-tab" class="tab-pane fade in active">
+                <div id="accordion">
+                                  <div class="group">
+                                    <h3>Administrative Layers</h3>
+                                    <div id="adm">
+                                      <div id="NUTS0" class="draggable">
+                                        <li>
+                                          <input type="checkbox" value="NUTS0" checked="false" rel="0" class="boxlayer">
+                                          <label for="NUTS0">Country Boundaries</label>
+                                        </li>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="group">
+                                    <h3>Land Cover Layers</h3>
+                                    <div id="lulc">
+                                      <div id="GLC_00" class="draggable">
+                                        <li>
+                                          <input type="checkbox" value="GLC_00" checked="false" rel="0" class="boxlayer">
+                                          <label for="GLC_00">Global Land Cover (2000)</label>
+                                        </li>
+                                      </div>
+                                      <div id="Corine_06" class="draggable">
+                                        <li>
+                                          <input type="checkbox" value="Corine_06" checked="false" rel="1" class="boxlayer">
+                                          <label for="Corine_06">Corine (2006)</label>
+                                        </li>
+                                      </div>
+                                      <div id="Atlas_06" class="draggable">
+                                        <li>
+                                          <input type="checkbox" value="Atlas_06" checked="false" rel="2" class="boxlayer">
+                                          <label for="Atlas_06">Urban Atlas (2006)</label>
+                                        </li>
+                                      </div>
+                                      <div id="GlobCover_09" class="draggable">
+                                        <li>
+                                          <input type="checkbox" value="GlobCover_09" checked="false" rel="3" class="boxlayer">
+                                          <label for="GlobCover_09">GlobCover (2009)</label>
+                                        </li>
+                                      </div>
+                                      <div id="MODIS_10" class="draggable">
+                                        <li>
+                                          <input type="checkbox" value="MODIS_10" checked="false" rel="4" class="boxlayer">
+                                          <label for="MODIS_10">MODIS (2010)</label>
+                                        </li>
+                                      </div>
+                                      <div id="CCIESA_10" class="draggable">
+                                        <li>
+                                          <input type="checkbox" value="CCIESA_10" checked="false" rel="5" class="boxlayer">
+                                          <label for="CCIESA_10">Land Cover CCI (2010)</label>
+                                        </li>
+                                      </div>
+                                      <div id="GLand30_10" class="draggable">
+                                        <li>
+                                          <input type="checkbox" value="GLand30_10" checked="false" rel="6" class="boxlayer">
+                                          <label for="GLand30_10">Global Land Cover 30m (2010)</label>
+                                        </li>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="group">
+                                    <h3>Custom Layers</h3>
+                                    <div id="custom">
+                                      <div id="custom_WMS" class="draggable">
+                                        <li>
+                                          <input type="checkbox" value="custom_WMS" checked="false" rel="0" class="boxlayer">
+                                          <label for="custom_WMS">WMS</label>
+                                        </li>
+                                      </div>
+                                    </div>
+                                  </div>
+                </div>
+              </div>
+              <div role="tabpanel" id="legend" aria-labelledby="legend-tab" class="tab-pane fade">
+                <div id="legend">
+                                  <div id="leg_GLC_00" rel="0" class="leg">
+                                    <h4>
+                                      <p>Global Land Cover (2000)</p>
+                                      <iframe src="img/GLC_00.svg"></iframe>
+                                    </h4>
+                                  </div>
+                                  <div id="leg_Corine_06" rel="1" class="leg">
+                                    <h4>
+                                      <p>Corine (2006)</p>
+                                      <iframe src="img/Corine_06.svg"></iframe>
+                                    </h4>
+                                  </div>
+                                  <div id="leg_Atlas_06" rel="2" class="leg">
+                                    <h4>
+                                      <p>Urban Atlas (2006)</p>
+                                      <iframe src="img/Atlas_06.svg"></iframe>
+                                    </h4>
+                                  </div>
+                                  <div id="leg_GlobCover_09" rel="3" class="leg">
+                                    <h4>
+                                      <p>GlobCover (2009)</p>
+                                      <iframe src="img/GlobCover_09.svg"></iframe>
+                                    </h4>
+                                  </div>
+                                  <div id="leg_MODIS_10" rel="4" class="leg">
+                                    <h4>
+                                      <p>MODIS (2010)</p>
+                                      <iframe src="img/MODIS_10.svg"></iframe>
+                                    </h4>
+                                  </div>
+                                  <div id="leg_CCIESA_10" rel="5" class="leg">
+                                    <h4>
+                                      <p>Land Cover CCI (2010)</p>
+                                      <iframe src="img/CCIESA_10.svg"></iframe>
+                                    </h4>
+                                  </div>
+                                  <div id="leg_GLand30_10" rel="6" class="leg">
+                                    <h4>
+                                      <p>Global Land Cover 30m (2010)</p>
+                                      <iframe src="img/GLand30_10.svg"></iframe>
+                                    </h4>
+                                  </div>
+                </div>
+              </div>
+              <div role="tabpanel" id="info" aria-labelledby="info-tab" class="tab-pane fade">
+                <div id="tables">
+                                  <div id="tbl_GLC_00" rel="0" class="tbl">
+                                    <h4>
+                                      <p>Global Land Cover (2000)</p>
+                                      <iframe src="html/GLC_00.html"></iframe>
+                                    </h4>
+                                  </div>
+                                  <div id="tbl_Corine_06" rel="1" class="tbl">
+                                    <h4>
+                                      <p>Corine (2006)</p>
+                                      <iframe src="html/Corine_06.html"></iframe>
+                                    </h4>
+                                  </div>
+                                  <div id="tbl_Atlas_06" rel="2" class="tbl">
+                                    <h4>
+                                      <p>Urban Atlas (2006)</p>
+                                      <iframe src="html/Atlas_06.html"></iframe>
+                                    </h4>
+                                  </div>
+                                  <div id="tbl_GlobCover_09" rel="3" class="tbl">
+                                    <h4>
+                                      <p>GlobCover (2009)</p>
+                                      <iframe src="html/GlobCover_09.html"></iframe>
+                                    </h4>
+                                  </div>
+                                  <div id="tbl_MODIS_10" rel="4" class="tbl">
+                                    <h4>
+                                      <p>MODIS (2010)</p>
+                                      <iframe src="html/MODIS_10.html"></iframe>
+                                    </h4>
+                                  </div>
+                                  <div id="tbl_CCIESA_10" rel="5" class="tbl">
+                                    <h4>
+                                      <p>Land Cover CCI (2010)</p>
+                                      <iframe src="html/CCIESA_10.html"></iframe>
+                                    </h4>
+                                  </div>
+                                  <div id="tbl_GLand30_10" rel="6" class="tbl">
+                                    <h4>
+                                      <p>Global Land Cover 30m (2010)</p>
+                                      <iframe src="html/GLand30_10.html"></iframe>
+                                    </h4>
+                                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="settings">

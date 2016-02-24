@@ -87,25 +87,42 @@ body
                 flex-grow: 1
                 flex-direction: row
 
-
                 .side
                     display: flex
-                    flex-flow: column wrap
                     flex-direction: column
                     border-right: solid white 0.5px
                     width: 300px
                     color: $baseColor
 
-
                     .pannel
                         flex-grow: 1
-                        overflow: auto
 
-                        .nav-link
-                            padding: 8px 8px
-                            min-width: 90px
+                        #tabs
+                            border: none
                             font-size: 0.7em
                             text-align: center
+                            padding: 0px
+                            background: none
+
+                            .ui-tabs-panel
+                                border: none
+
+                            .ui-tabs-nav
+                                display: inline-block
+                                float: none
+                                border: none
+                                background: transparent
+
+                                li
+                                    display: inline-block
+                                    float: none
+                                    min-width: 90px
+                                    border-bottom: solid white 0.5px
+                                    text-align: center
+
+                            #layers
+                                padding: 0
+                                font-size: 1em
 
                     .settings
                         display: flex
@@ -123,11 +140,6 @@ body
                             min-width: 100px
                             border: none
 
-                    .leg
-                        display: none
-
-                    .tbl
-                        display: none
 
                 #map
                     flex-grow: 1

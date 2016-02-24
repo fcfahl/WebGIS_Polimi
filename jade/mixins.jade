@@ -32,23 +32,46 @@ mixin tabs_jquery(name,tab)
             span=tab
             
 mixin tabs_content(name)
-    - var file =  name
-    div=name
-        include #name
+    div(id=name)
         
 mixin test()
     ul
         each val, index in {1:'one',2:'two',3:'three'}
             li= index + ': ' + val
         
-mixin accordeon(section,layers)
+mixin accorde(section,sort,layers)
     .group
+        - var index = 0
         h3=section
-        div
+        div(id=sort)
             for name, id in layers
                 - var ID = id
                 - var NM = name
                 div(id=ID class='draggable')
                     li
-                        input(type="checkbox" value=ID checked='false')
+                        input(type="checkbox" value=ID class="boxlayer" checked='false' rel="#{index++}")
                         label(for=ID)= NM
+
+
+mixin leg(layers)
+    - var index = 0
+        for name, id in layers
+            - var ID = "leg_" + id
+            - var NM = name
+            - var ref = "img/"  +   id  + ".svg"    
+            div(id=ID class='leg' rel="#{index++}")
+                h4
+                    p=NM 
+                    iframe(src=ref)
+
+
+mixin table(layers)
+    - var index = 0
+    for name, id in layers
+        - var ID = "tbl_" + id
+        - var NM = name
+        - var ref = "html/"  +   id  + ".html"    
+        div(id=ID class='tbl' rel="#{index++}")
+            h4
+                p=NM 
+                iframe(src=ref)

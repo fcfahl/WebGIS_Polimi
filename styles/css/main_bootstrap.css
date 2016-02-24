@@ -74,14 +74,12 @@ body {
         flex-direction: row; }
         body .container-fluid .main .content .side {
           display: flex;
-          flex-flow: column wrap;
           flex-direction: column;
           border-right: solid white 0.5px;
           width: 300px;
           color: #2B3856; }
           body .container-fluid .main .content .side .pannel {
-            flex-grow: 1;
-            overflow: auto; }
+            flex-grow: 1; }
             body .container-fluid .main .content .side .pannel .nav-link {
               padding: 8px 8px;
               min-width: 90px;
@@ -96,15 +94,11 @@ body {
             height: 40px;
             border-top: solid white 0.5px; }
             body .container-fluid .main .content .side .settings .button {
-              padding: 5px;
+              padding: 10px;
               margin: 0 5px 0 5px;
               font-size: 0.6em;
               min-width: 100px;
               border: none; }
-          body .container-fluid .main .content .side .leg {
-            display: none; }
-          body .container-fluid .main .content .side .tbl {
-            display: none; }
         body .container-fluid .main .content #map {
           flex-grow: 1; }
     body .container-fluid footer {
@@ -113,4 +107,4 @@ body {
       font-size: 0.45em;
       text-align: right; }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main_bootstrap.css.map */
