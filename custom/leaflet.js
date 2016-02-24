@@ -31,12 +31,12 @@ map.fitBounds([
 
 
 //leaflet-graphicscale-master Plugin
-    var graphicScale = L.control.graphicScale({
-        doubleLine: false,
-        fill: 'hollow',
-        showSubunits: false,
-        position: 'bottomright'
-    }).addTo(map);
+    // var graphicScale = L.control.graphicScale({
+    //     doubleLine: false,
+    //     fill: 'hollow',
+    //     showSubunits: false,
+    //     position: 'bottomright'
+    // }).addTo(map);
 
 
     //Leaflet-IconLayers-master Plugin

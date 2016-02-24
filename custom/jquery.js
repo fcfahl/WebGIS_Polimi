@@ -6,9 +6,15 @@ $( document ).ready(function() {
 
     // Accordeon - expand layer panels
     $(function() {
-      $( "#accordion" )
+
+        $( "#accordion" )
         .accordion({
-          header: "> div > h3", heightStyle: "content"
+          header: "> div > h3",
+          heightStyle: "content",
+          collapsible: false,
+          active: false,
+          icons: { "header": "ui-icon-plus", "activeHeader": "ui-icon-minus" }
+
         })
         .sortable({
           axis: "y",
@@ -22,6 +28,13 @@ $( document ).ready(function() {
             $( this ).accordion( "refresh" );
           }
         });
+
+
+        $( "#expand" ).on( "click", function() {
+          $('.ui-widget-content').show();
+
+
+        });
     });
 
 
@@ -29,26 +42,12 @@ $( document ).ready(function() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    //
+    // $("#expand").button().toggle(function() {
+    //    $(this).button('option', 'label', 'Stop');
+    // }, function() {
+    //    $(this).button('option', 'label', 'Start');
+    // });
+    //
 
 });
