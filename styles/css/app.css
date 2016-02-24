@@ -80,11 +80,25 @@ body {
           color: #2B3856; }
           body .container-fluid .main .content .side .pannel {
             flex-grow: 1; }
-            body .container-fluid .main .content .side .pannel .nav-link {
-              padding: 8px 8px;
-              min-width: 90px;
+            body .container-fluid .main .content .side .pannel #tabs {
+              border: none;
               font-size: 0.7em;
-              text-align: center; }
+              text-align: center;
+              padding: 0px;
+              background: none; }
+              body .container-fluid .main .content .side .pannel #tabs .ui-tabs-panel {
+                border: none; }
+              body .container-fluid .main .content .side .pannel #tabs .ui-tabs-nav {
+                display: inline-block;
+                float: none;
+                border: none;
+                background: transparent; }
+                body .container-fluid .main .content .side .pannel #tabs .ui-tabs-nav li {
+                  display: inline-block;
+                  float: none;
+                  min-width: 90px;
+                  border-bottom: solid white 0.5px;
+                  text-align: center; }
           body .container-fluid .main .content .side .settings {
             display: flex;
             flex-direction: row;
@@ -94,7 +108,7 @@ body {
             height: 40px;
             border-top: solid white 0.5px; }
             body .container-fluid .main .content .side .settings .button {
-              padding: 10px;
+              padding: 5px;
               margin: 0 5px 0 5px;
               font-size: 0.6em;
               min-width: 100px;

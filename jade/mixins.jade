@@ -17,13 +17,25 @@ mixin link(classA,href,name)
 mixin dropdown()
     a(class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false") Dropdown
 
-mixin tabs(classLI,classA,name,tab,bool)
+mixin tabs_bootstrap(classLI,classA,name,tab,bool)
     - var idA = name + "-tab"
     - var ref = "#" + name
 
     li(class=classLI)
         a(class=classA href=ref role=roleA id=idA data-toggle="tab" aria-controls=name aria-expanded=bool)=tab
 
+mixin tabs_jquery(name,tab)
+    - var ref = "#" + name
+
+    li
+        a(href=ref)
+            span=tab
+            
+mixin tabs_content(name)
+    - var file =  name
+    div=name
+        include #name
+        
 mixin test()
     ul
         each val, index in {1:'one',2:'two',3:'three'}

@@ -98,11 +98,30 @@ body
                     .pannel
                         flex-grow: 1
 
-                        .nav-link
-                            padding: 8px 8px
-                            min-width: 90px
+                        #tabs
+                            border: none
                             font-size: 0.7em
                             text-align: center
+                            padding: 0px
+                            background: none
+
+                            .ui-tabs-panel
+                                border: none
+
+                            .ui-tabs-nav
+                                display: inline-block
+                                float: none
+                                border: none
+                                background: transparent
+
+                                li
+                                    display: inline-block
+                                    float: none
+                                    min-width: 90px
+                                    border-bottom: solid white 0.5px
+                                    text-align: center
+
+
                     .settings
                         display: flex
                         flex-direction: row
@@ -113,7 +132,7 @@ body
                         border-top: solid white 0.5px
 
                         .button
-                            padding: 10px
+                            padding: 5px
                             margin: 0 5px 0 5px
                             font-size: 0.6em
                             min-width: 100px
