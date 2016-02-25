@@ -21,11 +21,12 @@ $lineDivision: solid white 0.5px
     box-sizing: border-box
     margin: 0
     padding: 0
-    overflow: hidden
+    // overflow: hidden
 
 html, body
     width: 100%
     height: 100%
+    overflow: hidden
 
     .container-fluid
         display: flex
@@ -33,6 +34,7 @@ html, body
         height: 100%
         margin: 0
         padding: 0
+        overflow: hidden
 
         header
             display: flex
@@ -49,6 +51,7 @@ html, body
             flex-direction: row
             height: $heightMain
             flex: 1 0 auto
+            overflow: hidden
 
             #side
                 display: flex
@@ -61,6 +64,7 @@ html, body
                 .pannel
                     flex: 1
                     overflow-y: scroll
+                    overflow-x: hidden
 
                 .settings
                     display: flex
@@ -71,7 +75,9 @@ html, body
                     height: $heightSettings
 
             #map
+                background: pink
                 flex-grow: 1
+
 
         footer
             height: $heightFooter
