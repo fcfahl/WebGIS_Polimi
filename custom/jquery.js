@@ -32,24 +32,52 @@ $( document ).ready(function() {
       }
     });
 
+    // Syncronyse the expand button in all tabs
+    function expand() {
+        // Getter
+        var label = $( "#expand").button( "option", "label" );
+        console.log(" button expand: " + label );
+
+        if(label === "Expand All") {
+            $('.panel-collapse:not(".in")').collapse('show');
+        }
+        else {
+            $('.panel-collapse.in').collapse('hide');
+
+        }
+    };
+
+
     // Expand All button
     $( "#expand" ).button().on( "click", function() {
         var label = $(this).button( "option", "label" );
         if(label === "Expand All") {
         	$(this).button( "option", "label", "Collapse All" );
             $('.ui-widget-content').show();
-            // console.log( label );
+
+            // Expand-collapse legend option
+            $('.panel-collapse:not(".in")').collapse('show');
+            console.log( "expand button" );
+
         }
         else {
         	$(this).button( "option", "label", "Expand All" );
             $('.ui-widget-content').hide();
             // console.log( label );
+
+            // Expand-collapse legend option
+            $('.panel-collapse.in').collapse('hide');
+
         }
      });
+
+    expand()
+
 
      // Setting button
      $( "#setting" ).button().on( "click", function() {
          var label = $(this).button( "option", "label" );
+         $('#adm').hide();
       });
 
      // Display Legend and metadata
@@ -64,7 +92,7 @@ $( document ).ready(function() {
          if(this.checked) {
              $(leg).show();
              $(tbl).show();
-            //  console.log( leg );
+             console.log( leg );
 
         }else{
             $(leg).hide();
@@ -73,8 +101,6 @@ $( document ).ready(function() {
         }
 
      });
-
-
 
      function sortPannel() {
 
@@ -114,8 +140,8 @@ $( document ).ready(function() {
                 $(ID_table).attr('rel', index)
 
                 var test =$(ID_leg).attr('rel')
-                console.clear()
-                console.log(ID_leg + ": rel: " + test);
+                // console.clear()
+                // console.log(ID_leg + ": rel: " + test);
 
                 sortPannel();
 
@@ -124,22 +150,6 @@ $( document ).ready(function() {
      });
 
 
-
-
-
-// this.rel += 'theValue';
-
- //
- //     $(".boxlayer").click(function(){
- //     $("input:checkbox").attr("checked",true);
- // })
-
-// $('.boxlayer').prop('checked', true);
-//
-// $("input:checked").each(function() {
-//       var label = $(this).next();
-//       console.log( label );
-// });
 
 
 

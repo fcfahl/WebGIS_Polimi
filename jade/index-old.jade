@@ -5,7 +5,7 @@ include head
         
 body
 
-    .container-fluid    
+    .container-fluid
 
         header
             .logo
@@ -22,21 +22,21 @@ body
                         +link('dropdown-item','#','Dropdown Link 2')
                         +link('dropdown-item','#','Dropdown Link 3')  
             
-        #main
-            #side
-                .tabs
+        
+        .main
+            .side
+                .pannel
+                    <!-- Tabsl -->
                     ul(id="clothing-nav" class="nav nav-tabs" role="tablist")
                         +tabs_bootstrap('nav-item','nav-link active','layers','Layers','true')
                         +tabs_bootstrap('nav-item','nav-link','legend','Legend','false')      
-                        +tabs_bootstrap('nav-item','nav-link','info','Metadata','false')  
-                    
-                .pannel
+                        +tabs_bootstrap('nav-item','nav-link','info','Metadata','false')                      
+                
+                    <!-- Content Panel -->
                     #clothing-nav-content.tab-content
                         .tab-pane.fade.in.active(role="tabpanel" id="layers" aria-labelledby="layers-tab"): include layers
                         .tab-pane.fade(role="tabpanel" id="legend" aria-labelledby="legend-tab"): include legend
                         .tab-pane.fade(role="tabpanel" id="info" aria-labelledby="info-tab"): include info
-
-                    
                 .settings
                     button.button#expand Expand All
                     button.button#setting Settings
@@ -45,6 +45,7 @@ body
                     
             
         footer
-            p (c)fernando fahl, 2016
+            p @fernando fahl, 2016
+
 
     include scripts
