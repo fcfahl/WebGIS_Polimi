@@ -11,20 +11,20 @@ http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html
 
 
 
-02 - Install Tomcat 
+02 - Install Tomcat
 
 a - Download: http://tomcat.apache.org/download-90.cgi
 
-b - Extract and move to /opt: 
+b - Extract and move to /opt:
 sudo tar xvfz apache-tomcat-9.0.0.M1.tar.gz -C /opt
 
 c - start Tomcat:
 sudo /opt/apache-tomcat-9.0.0.M1/bin/catalina.sh start
 
-if needed to stop it: 
+if needed to stop it:
 sudo /opt/apache-tomcat-9.0.0.M1/bin/catalina.sh stop
 
-d - Edit security settings. 
+d - Edit security settings.
 
 /opt/apache-tomcat-9.0.0.M1/conf/tomcat-users.xml
 
@@ -63,7 +63,7 @@ http://localhost:8080/manager/html
 e - Deploy the geoserver.war file
 
 f - if successful, geoserver must be running at:
-http://localhost:8080/geoserver/web/ 
+http://localhost:8080/geoserver/web/
 
 g - define the geoserver data directory
 http://docs.geoserver.org/stable/en/user/datadirectory/data-dir-setting.html
@@ -80,7 +80,7 @@ g2 -> Modify the Servlet context parameter
     <context-param>
        <param-name>GEOSERVER_DATA_DIR</param-name>
         <param-value>/home/fcfahl/GIS/07_WebGIS/02_Geoserver_Polimi</param-value>
-    </context-param> 
+    </context-param>
 
 g3 -> Modify Tomcat parameter
 
@@ -104,9 +104,17 @@ if there is a problem to set up the postgres password, see this link
 http://stackoverflow.com/questions/7695962/postgresql-password-authentication-failed-for-user-postgres
 
 
+obs:
+In case of tomcat binaries, the file to be modified is:
+
+/var/lib/tomcat7/webapps/geoserver/WEB-INF/web.xml
+sudo service tomcat7 restart
+export GEOSERVER_DATA_DIR=/home/fcfahl/GIS/02_Geoserver_Polimi
 
 
 
+or move all the geoserver data files to the tomcat folder
+/var/lib/tomcat7/webapps/geoserver/data
 
-
- 
+sudo chown -R tomcat7 data
+sudo chown -R :tomcat7 data
