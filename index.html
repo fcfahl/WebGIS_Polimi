@@ -24,8 +24,6 @@
     <script src="libs/leaflet_V0.7.7/leaflet.js">  </script>
     <link rel="stylesheet" type="text/css" href="libs/leaflet_V0.7.7/leaflet.css">
     <script src="libs/plugins/leaflet-providers-master/leaflet-providers.js"> </script>
-    <script src="libs/plugins/sidebar-v2-master/js/leaflet-sidebar.js"> </script>
-    <link rel="stylesheet" href="libs/plugins/sidebar-v2-master/css/leaflet-sidebar_CUSTOM.css"/>
     <script src="libs/plugins/Leaflet.ZoomBox-master/L.Control.ZoomBox.min.js"> </script>
     <link rel="stylesheet" href="libs/plugins/Leaflet.ZoomBox-master/L.Control.ZoomBox.css"/>
     <script src="libs/plugins/Leaflet.NavBar-master/src/Leaflet.NavBar.js"> </script>
@@ -43,6 +41,8 @@
     <link rel="stylesheet" href="libs/plugins/erictheise-rrose-77e87f5/leaflet.rrose.css"/>
     <script src="libs/plugins/Leaflet-WFST-master/dist/Leaflet-WFST.min.js"> </script>
     <script src="libs/plugins/Leaflet.ZoomLabel-master/src/L.Control.ZoomLabel.js"> </script>
+    <script src="libs/plugins/sidebar-v2-master/js/leaflet-sidebar.js"> </script>
+    <link rel="stylesheet" href="libs/plugins/sidebar-v2-master/css/leaflet-sidebar_CUSTOM.css"/>
     <script src="libs/plugins/Services2/layer/tile/Bing.js"> </script>
     <script src="libs/plugins/Services2/layer/tile/Google.js"> </script>
     <!-- Custom CSS -->
@@ -55,239 +55,260 @@
         <div class="title"> 
           <h2>Land Cover Maps of Europe</h2>
         </div>
-        <div class="menu">                   
-          <li class="nav-item dropdown"> <a data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Options</a>
-            <div aria-labelledby="Preview" class="dropdown-menu"><a href="#" class="dropdown-item">Dropdown Link 1</a><a href="#" class="dropdown-item">Dropdown Link 2</a><a href="#" class="dropdown-item">Dropdown Link 3</a>
-            </div>
-          </li>
-        </div>
       </header>
       <div id="main">
-        <div id="side">
-          <div class="tabs">
-            <ul id="clothing-nav" role="tablist" class="nav nav-tabs">
-              <li class="nav-item"><a href="#layers" id="layers-tab" data-toggle="tab" aria-controls="layers" aria-expanded="true" class="nav-link active">Layers</a></li>
-              <li class="nav-item"><a href="#legend" id="legend-tab" data-toggle="tab" aria-controls="legend" aria-expanded="false" class="nav-link">Legend</a></li>
-              <li class="nav-item"><a href="#info" id="info-tab" data-toggle="tab" aria-controls="info" aria-expanded="false" class="nav-link">Metadata</a></li>
+        
+        
+        
+        
+        
+        <div id="sidebar" class="sidebar collapsed">
+          <div class="sidebar-tabs">
+            <ul role="tablist">
+              <li><a href="#layers" role="tab"><img src="img/icons/box-layered-16-000000.png"></a></li>
+              <li><a href="#legend" role="tab"><img src="img/icons/list-16-000000.png"></a></li>
+              <li><a href="#info" role="tab"><img src="img/icons/information-16-000000.png"></a></li>
+            </ul>
+            <ul role="tablist">
+              <li><a href="#settings" role="tab"><i class="fa fa-gear"></i></a></li>
             </ul>
           </div>
-          <div class="pannel">
-            <div id="clothing-nav-content" class="tab-content">
-              <div role="tabpanel" id="layers" aria-labelledby="layers-tab" class="tab-pane fade in active">
-                <div id="accordion">
-                                  <div class="group">
-                                    <h3>Administrative Layers</h3>
-                                    <div id="adm">
-                                      <div id="NUTS0" class="draggable">
-                                        <li>
-                                          <input type="checkbox" value="NUTS0" checked="false" rel="0" class="boxlayer">
-                                          <label for="NUTS0"><span>Country Boundaries</span></label>
-                                        </li>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="group">
-                                    <h3>Land Cover Layers</h3>
-                                    <div id="lulc">
-                                      <div id="GLC_00" class="draggable">
-                                        <li>
-                                          <input type="checkbox" value="GLC_00" checked="false" rel="0" class="boxlayer">
-                                          <label for="GLC_00"><span>Global Land Cover (2000)</span></label>
-                                        </li>
-                                      </div>
-                                      <div id="Corine_06" class="draggable">
-                                        <li>
-                                          <input type="checkbox" value="Corine_06" checked="false" rel="1" class="boxlayer">
-                                          <label for="Corine_06"><span>Corine (2006)</span></label>
-                                        </li>
-                                      </div>
-                                      <div id="Atlas_06" class="draggable">
-                                        <li>
-                                          <input type="checkbox" value="Atlas_06" checked="false" rel="2" class="boxlayer">
-                                          <label for="Atlas_06"><span>Urban Atlas (2006)</span></label>
-                                        </li>
-                                      </div>
-                                      <div id="GlobCover_09" class="draggable">
-                                        <li>
-                                          <input type="checkbox" value="GlobCover_09" checked="false" rel="3" class="boxlayer">
-                                          <label for="GlobCover_09"><span>GlobCover (2009)</span></label>
-                                        </li>
-                                      </div>
-                                      <div id="MODIS_10" class="draggable">
-                                        <li>
-                                          <input type="checkbox" value="MODIS_10" checked="false" rel="4" class="boxlayer">
-                                          <label for="MODIS_10"><span>MODIS (2010)</span></label>
-                                        </li>
-                                      </div>
-                                      <div id="CCIESA_10" class="draggable">
-                                        <li>
-                                          <input type="checkbox" value="CCIESA_10" checked="false" rel="5" class="boxlayer">
-                                          <label for="CCIESA_10"><span>Land Cover CCI (2010)</span></label>
-                                        </li>
-                                      </div>
-                                      <div id="GLand30_10" class="draggable">
-                                        <li>
-                                          <input type="checkbox" value="GLand30_10" checked="false" rel="6" class="boxlayer">
-                                          <label for="GLand30_10"><span>Global Land Cover 30m (2010)</span></label>
-                                        </li>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="group">
-                                    <h3>Custom Layers</h3>
-                                    <div id="custom">
-                                      <div id="custom_WMS" class="draggable">
-                                        <li>
-                                          <input type="checkbox" value="custom_WMS" checked="false" rel="0" class="boxlayer">
-                                          <label for="custom_WMS"><span>WMS</span></label>
-                                        </li>
-                                      </div>
-                                    </div>
-                                  </div>
-                </div>
-              </div>
-              <div role="tabpanel" id="legend" aria-labelledby="legend-tab" class="tab-pane fade">
-                <div id="legend">
-                                  <div id="leg_GLC_00" role="tablist" aria-multiselectable="true" class="leg">
-                                    <div class="panel panel-default">
-                                      <div role="tab" id="leg_GLC_00" rel="0" class="panel-heading collapsed">
-                                        <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#leg_col_GLC_00" aria-expanded="true" aria-controls="leg_GLC_00" class="accordion-toggle">Global Land Cover (2000)</a></h3>
-                                      </div>
-                                    </div>
-                                    <div id="leg_col_GLC_00" role="tabpanel" aria-labelledby="leg_GLC_00" class="panel-collapse collapse in"><img src="img/GLC_00.svg" alt="Global Land Cover (2000)"></div>
-                                  </div>
-                                  <div id="leg_Corine_06" role="tablist" aria-multiselectable="true" class="leg">
-                                    <div class="panel panel-default">
-                                      <div role="tab" id="leg_Corine_06" rel="1" class="panel-heading collapsed">
-                                        <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#leg_col_Corine_06" aria-expanded="true" aria-controls="leg_Corine_06" class="accordion-toggle">Corine (2006)</a></h3>
-                                      </div>
-                                    </div>
-                                    <div id="leg_col_Corine_06" role="tabpanel" aria-labelledby="leg_Corine_06" class="panel-collapse collapse in"><img src="img/Corine_06.svg" alt="Corine (2006)"></div>
-                                  </div>
-                                  <div id="leg_Atlas_06" role="tablist" aria-multiselectable="true" class="leg">
-                                    <div class="panel panel-default">
-                                      <div role="tab" id="leg_Atlas_06" rel="2" class="panel-heading collapsed">
-                                        <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#leg_col_Atlas_06" aria-expanded="true" aria-controls="leg_Atlas_06" class="accordion-toggle">Urban Atlas (2006)</a></h3>
-                                      </div>
-                                    </div>
-                                    <div id="leg_col_Atlas_06" role="tabpanel" aria-labelledby="leg_Atlas_06" class="panel-collapse collapse in"><img src="img/Atlas_06.svg" alt="Urban Atlas (2006)"></div>
-                                  </div>
-                                  <div id="leg_GlobCover_09" role="tablist" aria-multiselectable="true" class="leg">
-                                    <div class="panel panel-default">
-                                      <div role="tab" id="leg_GlobCover_09" rel="3" class="panel-heading collapsed">
-                                        <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#leg_col_GlobCover_09" aria-expanded="true" aria-controls="leg_GlobCover_09" class="accordion-toggle">GlobCover (2009)</a></h3>
-                                      </div>
-                                    </div>
-                                    <div id="leg_col_GlobCover_09" role="tabpanel" aria-labelledby="leg_GlobCover_09" class="panel-collapse collapse in"><img src="img/GlobCover_09.svg" alt="GlobCover (2009)"></div>
-                                  </div>
-                                  <div id="leg_MODIS_10" role="tablist" aria-multiselectable="true" class="leg">
-                                    <div class="panel panel-default">
-                                      <div role="tab" id="leg_MODIS_10" rel="4" class="panel-heading collapsed">
-                                        <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#leg_col_MODIS_10" aria-expanded="true" aria-controls="leg_MODIS_10" class="accordion-toggle">MODIS (2010)</a></h3>
-                                      </div>
-                                    </div>
-                                    <div id="leg_col_MODIS_10" role="tabpanel" aria-labelledby="leg_MODIS_10" class="panel-collapse collapse in"><img src="img/MODIS_10.svg" alt="MODIS (2010)"></div>
-                                  </div>
-                                  <div id="leg_CCIESA_10" role="tablist" aria-multiselectable="true" class="leg">
-                                    <div class="panel panel-default">
-                                      <div role="tab" id="leg_CCIESA_10" rel="5" class="panel-heading collapsed">
-                                        <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#leg_col_CCIESA_10" aria-expanded="true" aria-controls="leg_CCIESA_10" class="accordion-toggle">Land Cover CCI (2010)</a></h3>
-                                      </div>
-                                    </div>
-                                    <div id="leg_col_CCIESA_10" role="tabpanel" aria-labelledby="leg_CCIESA_10" class="panel-collapse collapse in"><img src="img/CCIESA_10.svg" alt="Land Cover CCI (2010)"></div>
-                                  </div>
-                                  <div id="leg_GLand30_10" role="tablist" aria-multiselectable="true" class="leg">
-                                    <div class="panel panel-default">
-                                      <div role="tab" id="leg_GLand30_10" rel="6" class="panel-heading collapsed">
-                                        <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#leg_col_GLand30_10" aria-expanded="true" aria-controls="leg_GLand30_10" class="accordion-toggle">Global Land Cover 30m (2010)</a></h3>
-                                      </div>
-                                    </div>
-                                    <div id="leg_col_GLand30_10" role="tabpanel" aria-labelledby="leg_GLand30_10" class="panel-collapse collapse in"><img src="img/GLand30_10.svg" alt="Global Land Cover 30m (2010)"></div>
-                                  </div>
-                </div>
-              </div>
-              <div role="tabpanel" id="info" aria-labelledby="info-tab" class="tab-pane fade">
-                <div id="tables">
-                                  <div id="tbl_GLC_00" role="tablist" aria-multiselectable="true" class="tbl">
-                                    <div class="panel panel-default">
-                                      <div role="tab" id="tbl_GLC_00" rel="0" class="panel-heading collapsed">
-                                        <h3 class="panel-title">                   <a data-toggle="collapse" data-parent="#accordion" href="#tbl_col_GLC_00" aria-expanded="true" aria-controls="tbl_GLC_00">Global Land Cover (2000)</a></h3>
-                                      </div>
-                                    </div>
-                                    <div id="tbl_col_GLC_00" role="tabpanel" aria-labelledby="tbl_GLC_00" class="panel-collapse collapse in">
-                                      <iframe src="html/GLC_00.html"></iframe>
-                                    </div>
-                                  </div>
-                                  <div id="tbl_Corine_06" role="tablist" aria-multiselectable="true" class="tbl">
-                                    <div class="panel panel-default">
-                                      <div role="tab" id="tbl_Corine_06" rel="1" class="panel-heading collapsed">
-                                        <h3 class="panel-title">                   <a data-toggle="collapse" data-parent="#accordion" href="#tbl_col_Corine_06" aria-expanded="true" aria-controls="tbl_Corine_06">Corine (2006)</a></h3>
-                                      </div>
-                                    </div>
-                                    <div id="tbl_col_Corine_06" role="tabpanel" aria-labelledby="tbl_Corine_06" class="panel-collapse collapse in">
-                                      <iframe src="html/Corine_06.html"></iframe>
-                                    </div>
-                                  </div>
-                                  <div id="tbl_Atlas_06" role="tablist" aria-multiselectable="true" class="tbl">
-                                    <div class="panel panel-default">
-                                      <div role="tab" id="tbl_Atlas_06" rel="2" class="panel-heading collapsed">
-                                        <h3 class="panel-title">                   <a data-toggle="collapse" data-parent="#accordion" href="#tbl_col_Atlas_06" aria-expanded="true" aria-controls="tbl_Atlas_06">Urban Atlas (2006)</a></h3>
-                                      </div>
-                                    </div>
-                                    <div id="tbl_col_Atlas_06" role="tabpanel" aria-labelledby="tbl_Atlas_06" class="panel-collapse collapse in">
-                                      <iframe src="html/Atlas_06.html"></iframe>
-                                    </div>
-                                  </div>
-                                  <div id="tbl_GlobCover_09" role="tablist" aria-multiselectable="true" class="tbl">
-                                    <div class="panel panel-default">
-                                      <div role="tab" id="tbl_GlobCover_09" rel="3" class="panel-heading collapsed">
-                                        <h3 class="panel-title">                   <a data-toggle="collapse" data-parent="#accordion" href="#tbl_col_GlobCover_09" aria-expanded="true" aria-controls="tbl_GlobCover_09">GlobCover (2009)</a></h3>
-                                      </div>
-                                    </div>
-                                    <div id="tbl_col_GlobCover_09" role="tabpanel" aria-labelledby="tbl_GlobCover_09" class="panel-collapse collapse in">
-                                      <iframe src="html/GlobCover_09.html"></iframe>
-                                    </div>
-                                  </div>
-                                  <div id="tbl_MODIS_10" role="tablist" aria-multiselectable="true" class="tbl">
-                                    <div class="panel panel-default">
-                                      <div role="tab" id="tbl_MODIS_10" rel="4" class="panel-heading collapsed">
-                                        <h3 class="panel-title">                   <a data-toggle="collapse" data-parent="#accordion" href="#tbl_col_MODIS_10" aria-expanded="true" aria-controls="tbl_MODIS_10">MODIS (2010)</a></h3>
-                                      </div>
-                                    </div>
-                                    <div id="tbl_col_MODIS_10" role="tabpanel" aria-labelledby="tbl_MODIS_10" class="panel-collapse collapse in">
-                                      <iframe src="html/MODIS_10.html"></iframe>
-                                    </div>
-                                  </div>
-                                  <div id="tbl_CCIESA_10" role="tablist" aria-multiselectable="true" class="tbl">
-                                    <div class="panel panel-default">
-                                      <div role="tab" id="tbl_CCIESA_10" rel="5" class="panel-heading collapsed">
-                                        <h3 class="panel-title">                   <a data-toggle="collapse" data-parent="#accordion" href="#tbl_col_CCIESA_10" aria-expanded="true" aria-controls="tbl_CCIESA_10">Land Cover CCI (2010)</a></h3>
-                                      </div>
-                                    </div>
-                                    <div id="tbl_col_CCIESA_10" role="tabpanel" aria-labelledby="tbl_CCIESA_10" class="panel-collapse collapse in">
-                                      <iframe src="html/CCIESA_10.html"></iframe>
-                                    </div>
-                                  </div>
-                                  <div id="tbl_GLand30_10" role="tablist" aria-multiselectable="true" class="tbl">
-                                    <div class="panel panel-default">
-                                      <div role="tab" id="tbl_GLand30_10" rel="6" class="panel-heading collapsed">
-                                        <h3 class="panel-title">                   <a data-toggle="collapse" data-parent="#accordion" href="#tbl_col_GLand30_10" aria-expanded="true" aria-controls="tbl_GLand30_10">Global Land Cover 30m (2010)</a></h3>
-                                      </div>
-                                    </div>
-                                    <div id="tbl_col_GLand30_10" role="tabpanel" aria-labelledby="tbl_GLand30_10" class="panel-collapse collapse in">
-                                      <iframe src="html/GLand30_10.html"></iframe>
-                                    </div>
-                                  </div>
-                </div>
-              </div>
+          <div class="sidebar-content">
+            <div id="layers" class="sidebar-pane">
+              <h1 class="sidebar-header">Layers
+                <div class="sidebar-close"><i class="fa fa-caret-right">                   </i></div></h1>
+                      <header>
+                        <h2>Administrative Layers</h2>
+                      </header>
+                      <div id="adm" class="tab_active">
+                        <div id="NUTS0" class="draggable">
+                          <li>
+                            <input type="checkbox" value="NUTS0">
+                            <label for="NUTS0">Country Boundaries</label>
+                          </li>
+                        </div>
+                      </div>
+                      <header>
+                        <h2>Land Cover Layers</h2>
+                      </header>
+                      <div id="lulc" class="tab_active">
+                        <div id="GLC_00" class="draggable">
+                          <li>
+                            <input type="checkbox" value="GLC_00">
+                            <label for="GLC_00">Global Land Cover (2000)</label>
+                          </li>
+                        </div>
+                        <div id="Corine_06" class="draggable">
+                          <li>
+                            <input type="checkbox" value="Corine_06">
+                            <label for="Corine_06">Corine (2006)</label>
+                          </li>
+                        </div>
+                        <div id="Atlas_06" class="draggable">
+                          <li>
+                            <input type="checkbox" value="Atlas_06">
+                            <label for="Atlas_06">Urban Atlas (2006)</label>
+                          </li>
+                        </div>
+                        <div id="GlobCover_09" class="draggable">
+                          <li>
+                            <input type="checkbox" value="GlobCover_09">
+                            <label for="GlobCover_09">GlobCover (2009)</label>
+                          </li>
+                        </div>
+                        <div id="MODIS_10" class="draggable">
+                          <li>
+                            <input type="checkbox" value="MODIS_10">
+                            <label for="MODIS_10">MODIS (2010)</label>
+                          </li>
+                        </div>
+                        <div id="CCIESA_10" class="draggable">
+                          <li>
+                            <input type="checkbox" value="CCIESA_10">
+                            <label for="CCIESA_10">Land Cover CCI (2010)</label>
+                          </li>
+                        </div>
+                        <div id="GLand30_10" class="draggable">
+                          <li>
+                            <input type="checkbox" value="GLand30_10">
+                            <label for="GLand30_10">Global Land Cover 30m (2010)</label>
+                          </li>
+                        </div>
+                      </div>
+                      <header>
+                        <h2>Custom Layers</h2>
+                      </header>
+                      <div id="custom" class="tab_active">
+                        <div id="custom_WMS" class="draggable">
+                          <li>
+                            <input type="checkbox" value="custom_WMS">
+                            <label for="custom_WMS">WMS</label>
+                          </li>
+                        </div>
+                      </div>
+            </div>
+            <div id="legend" class="sidebar-pane">
+              <h1 class="sidebar-header">Legend
+                <div class="sidebar-close"><i class="fa fa-caret-right"></i></div></h1>
+                      <div id="legend" style="overflow-y: none; height:1800px;" class="tab">
+                        <div class="unsorted">
+                          <div id="GLC_00" rel="0" class="leg">
+                            <h6>
+                              <p>Global Land Cover (2000)</p>
+                            </h6><img src="img/GLC_00.svg" alt="Global Land Cover (2000)">
+                          </div>
+                          <div id="Corine_06" rel="1" class="leg">
+                            <h6>
+                              <p>Corine (2006)</p>
+                            </h6><img src="img/Corine_06.svg" alt="Corine (2006)">
+                          </div>
+                          <div id="Atlas_06" rel="2" class="leg">
+                            <h6>
+                              <p>Urban Atlas (2006)</p>
+                            </h6><img src="img/Atlas_06.svg" alt="Urban Atlas (2006)">
+                          </div>
+                          <div id="GlobCover_09" rel="3" class="leg">
+                            <h6>
+                              <p>GlobCover (2009)</p>
+                            </h6><img src="img/GlobCover_09.svg" alt="GlobCover (2009)">
+                          </div>
+                          <div id="MODIS_10" rel="4" class="leg">
+                            <h6>
+                              <p>MODIS (2010)</p>
+                            </h6><img src="img/MODIS_10.svg" alt="MODIS (2010)">
+                          </div>
+                          <div id="CCIESA_10" rel="5" class="leg">
+                            <h6>
+                              <p>Land Cover CCI (2010)</p>
+                            </h6><img src="img/CCIESA_10.svg" alt="Land Cover CCI (2010)">
+                          </div>
+                          <div id="GLand30_10" rel="6" class="leg">
+                            <h6>
+                              <p>Global Land Cover 30m (2010)</p>
+                            </h6><img src="img/GLand30_10.svg" alt="Global Land Cover 30m (2010)">
+                          </div>
+                        </div>
+                      </div>
+            </div>
+            <div id="info" class="sidebar-pane">
+              <h1 class="sidebar-header">Information
+                <div class="sidebar-close"><i class="fa fa-caret-right"></i></div></h1>
+                      <div class="order_Table">
+                        <div id="GLC_00" rel="0" class="tbl">
+                          <h6>
+                            <p>Global Land Cover (2000)</p>
+                          </h6>
+                          <iframe src="html/GLC_00.html"></iframe>
+                        </div>
+                        <div id="Corine_06" rel="1" class="tbl">
+                          <h6>
+                            <p>Corine (2006)</p>
+                          </h6>
+                          <iframe src="html/Corine_06.html"></iframe>
+                        </div>
+                        <div id="Atlas_06" rel="2" class="tbl">
+                          <h6>
+                            <p>Urban Atlas (2006)</p>
+                          </h6>
+                          <iframe src="html/Atlas_06.html"></iframe>
+                        </div>
+                        <div id="GlobCover_09" rel="3" class="tbl">
+                          <h6>
+                            <p>GlobCover (2009)</p>
+                          </h6>
+                          <iframe src="html/GlobCover_09.html"></iframe>
+                        </div>
+                        <div id="MODIS_10" rel="4" class="tbl">
+                          <h6>
+                            <p>MODIS (2010)</p>
+                          </h6>
+                          <iframe src="html/MODIS_10.html"></iframe>
+                        </div>
+                        <div id="CCIESA_10" rel="5" class="tbl">
+                          <h6>
+                            <p>Land Cover CCI (2010)</p>
+                          </h6>
+                          <iframe src="html/CCIESA_10.html"></iframe>
+                        </div>
+                        <div id="GLand30_10" rel="6" class="tbl">
+                          <h6>
+                            <p>Global Land Cover 30m (2010)</p>
+                          </h6>
+                          <iframe src="html/GLand30_10.html"></iframe>
+                        </div>
+                      </div>
+            </div>
+            <div id="settings" class="sidebar-pane">
+              <h1 class="sidebar-header">Settings
+                <div class="sidebar-close"><i class="fa fa-caret-right"></i></div></h1>
+              <h5>Opacity:</h5>
+                      <div class="order_Slider">
+                        <div class="slide_Bar"></div>
+                        <div id="NUTS0" rel="0" class="opy">
+                          <h6>
+                            <p>Country Boundaries</p>
+                          </h6>
+                          <input id="NUTS0" type="range" min="0" max="1" step="0.1" value="1" autocomplete="off" onchange="updateOpacity(this)" class="slider">
+                        </div>
+                      </div>
+                      <div class="order_Slider">
+                        <div class="slide_Bar"></div>
+                        <div id="GLC_00" rel="0" class="opy">
+                          <h6>
+                            <p>Global Land Cover (2000)</p>
+                          </h6>
+                          <input id="GLC_00" type="range" min="0" max="1" step="0.1" value="1" autocomplete="off" onchange="updateOpacity(this)" class="slider">
+                        </div>
+                        <div id="Corine_06" rel="1" class="opy">
+                          <h6>
+                            <p>Corine (2006)</p>
+                          </h6>
+                          <input id="Corine_06" type="range" min="0" max="1" step="0.1" value="1" autocomplete="off" onchange="updateOpacity(this)" class="slider">
+                        </div>
+                        <div id="Atlas_06" rel="2" class="opy">
+                          <h6>
+                            <p>Urban Atlas (2006)</p>
+                          </h6>
+                          <input id="Atlas_06" type="range" min="0" max="1" step="0.1" value="1" autocomplete="off" onchange="updateOpacity(this)" class="slider">
+                        </div>
+                        <div id="GlobCover_09" rel="3" class="opy">
+                          <h6>
+                            <p>GlobCover (2009)</p>
+                          </h6>
+                          <input id="GlobCover_09" type="range" min="0" max="1" step="0.1" value="1" autocomplete="off" onchange="updateOpacity(this)" class="slider">
+                        </div>
+                        <div id="MODIS_10" rel="4" class="opy">
+                          <h6>
+                            <p>MODIS (2010)</p>
+                          </h6>
+                          <input id="MODIS_10" type="range" min="0" max="1" step="0.1" value="1" autocomplete="off" onchange="updateOpacity(this)" class="slider">
+                        </div>
+                        <div id="CCIESA_10" rel="5" class="opy">
+                          <h6>
+                            <p>Land Cover CCI (2010)</p>
+                          </h6>
+                          <input id="CCIESA_10" type="range" min="0" max="1" step="0.1" value="1" autocomplete="off" onchange="updateOpacity(this)" class="slider">
+                        </div>
+                        <div id="GLand30_10" rel="6" class="opy">
+                          <h6>
+                            <p>Global Land Cover 30m (2010)</p>
+                          </h6>
+                          <input id="GLand30_10" type="range" min="0" max="1" step="0.1" value="1" autocomplete="off" onchange="updateOpacity(this)" class="slider">
+                        </div>
+                      </div>
+                      <div class="order_Slider">
+                        <div class="slide_Bar"></div>
+                        <div id="custom_WMS" rel="0" class="opy">
+                          <h6>
+                            <p>WMS</p>
+                          </h6>
+                          <input id="custom_WMS" type="range" min="0" max="1" step="0.1" value="1" autocomplete="off" onchange="updateOpacity(this)" class="slider">
+                        </div>
+                      </div>
             </div>
           </div>
-          <div class="settings">
-            <button id="expand" class="button">Expand All</button>
-            <button id="setting" class="button">Settings</button>
-          </div>
         </div>
-        <div id="map"></div>
+        <div id="map">                       </div>
       </div>
       <footer>
         <p>(c)fernando fahl, 2016</p>

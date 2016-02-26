@@ -56,7 +56,7 @@
 
 
     //sidebar-v2-master Plugin
-    // var sidebar = L.control.sidebar('sidebar', {position: 'left'}).addTo(map);
+    var sidebar = L.control.sidebar('sidebar', {position: 'right'}).addTo(map);
 
      //leaflet-locationfilter-master Plugin
     // var locationFilter = new L.LocationFilter().addTo(map);

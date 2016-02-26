@@ -110,9 +110,59 @@ mixin table_boot(section,sort,layers)
             div(id=collapse class="panel-collapse collapse in" role="tabpanel" aria-labelledby=heading )
                 iframe(src=ref)
                             
-mixin mk_table
-    .table.table-striped
-        thead
-            tr
-                th="Land Cover"
-                th="Corine"         
+mixin sidebar_section(tab)
+    -var tabID = tab.toLowerCase()
+    .sidebar-pane(id= tabID)
+        h1(class="sidebar-header")=tab
+            .sidebar-close
+                i(class="fa fa-caret-right")
+                
+                
+mixin sidebar_layers(section,sort,layers)            
+        header
+            h2=section
+        div(id=sort class='tab_active')
+            for name, id in layers
+                - var  ID = id
+                - var NM = name
+                div(id=ID class='draggable')
+                    li
+                        input(type="checkbox" value=ID)
+                        label(for=ID)=NM
+
+mixin sidebar_legend(section,sort,layers)       
+        - var index = 0     
+        div(id="legend" class='tab' style="overflow-y: none; height:1800px;")
+            .unsorted
+                for name, id in layers
+                    - var  ID = id
+                    - var NM = name
+                    - var ref = "img/"  +   id  + ".svg"
+                    div(id=ID class='leg' rel="#{index++}")
+                        h6
+                            p=NM
+                        img(src=ref alt=NM)
+
+mixin sidebar_table(section,sort,layers)       
+        - var index = 0     
+        .order_Table
+            for name, id in layers
+                - var  ID = id
+                - var NM = name
+                - var ref = "html/"  +   id  + ".html"
+                div(id=ID class='tbl' rel="#{index++}")
+                    h6
+                        p=NM
+                    iframe(src=ref)
+
+mixin sidebar_setting(section,sort,layers)       
+        - var index = 0     
+        .order_Slider
+            .slide_Bar
+            for name, id in layers
+                - var  ID = id
+                - var NM = name
+                div(id=ID class='opy' rel="#{index++}")
+                    h6
+                        p=NM
+                    input(id=ID class="slider"  type="range" min="0" max="1" step="0.1" value="1" autocomplete="off" onchange="updateOpacity(this)")

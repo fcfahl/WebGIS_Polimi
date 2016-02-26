@@ -1,0 +1,55 @@
+include mixins
+include variables
+
+#sidebar.sidebar.collapsed
+    .sidebar-tabs
+        ul(role="tablist")
+            li
+                a(href="#layers" role="tab")
+                    img(src="img/icons/box-layered-16-000000.png")
+            li
+                a(href="#legend" role="tab")
+                    img(src="img/icons/list-16-000000.png")
+            li
+                a(href="#info" role="tab")
+                    img(src="img/icons/information-16-000000.png")
+        ul(role="tablist")
+            li
+                a(href="#settings" role="tab")
+                    i(class="fa fa-gear")
+
+
+    .sidebar-content
+        .sidebar-pane#layers
+            h1(class="sidebar-header")="Layers"
+                .sidebar-close
+                    i(class="fa fa-caret-right")                    
+                    
+            +sidebar_layers('Administrative Layers', 'adm', ADM)
+            +sidebar_layers('Land Cover Layers', 'lulc', LULC)
+            +sidebar_layers('Custom Layers', 'custom',custom)
+
+        .sidebar-pane#legend
+            h1(class="sidebar-header")="Legend"
+                .sidebar-close
+                    i(class="fa fa-caret-right")
+        
+            +sidebar_legend('Land Cover Layers', 'lulc', LULC)
+
+        .sidebar-pane#info
+            h1(class="sidebar-header")="Information"
+                .sidebar-close
+                    i(class="fa fa-caret-right")
+                    
+            +sidebar_table('Land Cover Layers', 'lulc', LULC)
+                    
+        .sidebar-pane#settings
+            h1(class="sidebar-header")="Settings"
+                .sidebar-close
+                    i(class="fa fa-caret-right")
+            
+            h5="Opacity:"
+
+            +sidebar_setting('Administrative Layers', 'adm', ADM)
+            +sidebar_setting('Land Cover Layers', 'lulc', LULC)
+            +sidebar_setting('Custom Layers', 'custom',custom)
